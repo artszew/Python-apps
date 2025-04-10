@@ -1,5 +1,5 @@
 <b> Assignment 1- objective app, a simulation involving a wolf that tries to catch sheep scattered in a meadow, which uses text mode. </b>
-- each round consists of the movement of sheep (in one of 4 randomly selected directions of the world), and then the movement of the wolf, which chases the sheep closest to him.
+- each round consists of the movement of sheep (in one of 4 randomly selected directions of the world), and then the movement of the wolf, which chases the sheep closest to him,
 - via the config.ini file you can choose the number of rounds, sheep, the distance of sheep and wolf movement, as well as the initial area in which sheep can appear (randomly), if you do not choose this option, the default settings will be used,
 - at the end of each round, information about the wolf's position and the number of live sheep is written to the console, if the wolf ate a sheep during the round, this will also be written to the console,
 - at the end of each round, information about the round number and the number of living sheep is saved to a csv file,
