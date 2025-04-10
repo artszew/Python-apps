@@ -1,0 +1,589 @@
+2025-04-10 12:07:46,978 - INFO - Simulation started with 15 sheep and 50 rounds.
+2025-04-10 12:07:46,978 - DEBUG - Round 1 started.
+2025-04-10 12:07:46,978 - DEBUG - Sheep moved to (-7.99, -5.58).
+2025-04-10 12:07:46,978 - DEBUG - Sheep moved to (-0.80, 0.49).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (-9.35, 7.71).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (-1.04, -7.02).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (6.79, 8.15).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (3.14, -1.73).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (9.79, -3.16).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (-3.08, -3.29).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (2.43, -9.46).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (-7.53, 3.25).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (6.88, 5.22).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (-0.81, 3.58).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (-7.32, 1.65).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (-0.42, -0.80).
+2025-04-10 12:07:46,979 - DEBUG - Sheep moved to (0.10, 9.49).
+2025-04-10 12:07:46,980 - INFO - Wolf chasing sheep at (-0.42, -0.80).
+2025-04-10 12:07:49,930 - DEBUG - Round 2 started.
+2025-04-10 12:07:49,930 - DEBUG - Sheep moved to (-7.49, -5.58).
+2025-04-10 12:07:49,930 - DEBUG - Sheep moved to (-0.80, -0.01).
+2025-04-10 12:07:49,930 - DEBUG - Sheep moved to (-8.85, 7.71).
+2025-04-10 12:07:49,931 - DEBUG - Sheep moved to (-1.54, -7.02).
+2025-04-10 12:07:49,931 - DEBUG - Sheep moved to (7.29, 8.15).
+2025-04-10 12:07:49,931 - DEBUG - Sheep moved to (3.64, -1.73).
+2025-04-10 12:07:49,931 - DEBUG - Sheep moved to (10.29, -3.16).
+2025-04-10 12:07:49,931 - DEBUG - Sheep moved to (-3.08, -2.79).
+2025-04-10 12:07:49,931 - DEBUG - Sheep moved to (2.43, -9.96).
+2025-04-10 12:07:49,931 - DEBUG - Sheep moved to (-8.03, 3.25).
+2025-04-10 12:07:49,932 - DEBUG - Sheep moved to (6.88, 4.72).
+2025-04-10 12:07:49,932 - DEBUG - Sheep moved to (-0.81, 4.08).
+2025-04-10 12:07:49,932 - DEBUG - Sheep moved to (-7.82, 1.65).
+2025-04-10 12:07:49,932 - DEBUG - Sheep moved to (0.10, 9.99).
+2025-04-10 12:07:49,932 - INFO - Wolf chasing sheep at (-0.80, -0.01).
+2025-04-10 12:07:50,818 - DEBUG - Round 3 started.
+2025-04-10 12:07:50,819 - DEBUG - Sheep moved to (-7.49, -5.08).
+2025-04-10 12:07:50,819 - DEBUG - Sheep moved to (-8.85, 8.21).
+2025-04-10 12:07:50,819 - DEBUG - Sheep moved to (-1.54, -6.52).
+2025-04-10 12:07:50,819 - DEBUG - Sheep moved to (6.79, 8.15).
+2025-04-10 12:07:50,819 - DEBUG - Sheep moved to (3.64, -2.23).
+2025-04-10 12:07:50,820 - DEBUG - Sheep moved to (10.79, -3.16).
+2025-04-10 12:07:50,820 - DEBUG - Sheep moved to (-3.08, -2.29).
+2025-04-10 12:07:50,820 - DEBUG - Sheep moved to (2.43, -9.46).
+2025-04-10 12:07:50,820 - DEBUG - Sheep moved to (-8.53, 3.25).
+2025-04-10 12:07:50,820 - DEBUG - Sheep moved to (6.88, 4.22).
+2025-04-10 12:07:50,820 - DEBUG - Sheep moved to (-0.81, 4.58).
+2025-04-10 12:07:50,820 - DEBUG - Sheep moved to (-8.32, 1.65).
+2025-04-10 12:07:50,821 - DEBUG - Sheep moved to (-0.40, 9.99).
+2025-04-10 12:07:50,821 - INFO - Wolf chasing sheep at (-3.08, -2.29).
+2025-04-10 12:07:51,011 - DEBUG - Round 4 started.
+2025-04-10 12:07:51,011 - DEBUG - Sheep moved to (-7.99, -5.08).
+2025-04-10 12:07:51,011 - DEBUG - Sheep moved to (-9.35, 8.21).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (-2.04, -6.52).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (7.29, 8.15).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (3.14, -2.23).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (10.29, -3.16).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (-3.58, -2.29).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (1.93, -9.46).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (-8.53, 2.75).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (7.38, 4.22).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (-1.31, 4.58).
+2025-04-10 12:07:51,012 - DEBUG - Sheep moved to (-8.32, 2.15).
+2025-04-10 12:07:51,013 - DEBUG - Sheep moved to (-0.40, 10.49).
+2025-04-10 12:07:51,013 - INFO - Wolf chasing sheep at (-3.58, -2.29).
+2025-04-10 12:07:51,141 - DEBUG - Round 5 started.
+2025-04-10 12:07:51,141 - DEBUG - Sheep moved to (-7.99, -4.58).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (-9.35, 7.71).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (-2.04, -6.02).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (7.29, 8.65).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (3.64, -2.23).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (10.79, -3.16).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (-3.08, -2.29).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (1.93, -8.96).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (-8.03, 2.75).
+2025-04-10 12:07:51,142 - DEBUG - Sheep moved to (6.88, 4.22).
+2025-04-10 12:07:51,143 - DEBUG - Sheep moved to (-1.31, 4.08).
+2025-04-10 12:07:51,143 - DEBUG - Sheep moved to (-8.32, 2.65).
+2025-04-10 12:07:51,143 - DEBUG - Sheep moved to (-0.90, 10.49).
+2025-04-10 12:07:51,143 - INFO - Wolf chasing sheep at (-3.08, -2.29).
+2025-04-10 12:07:51,646 - DEBUG - Round 6 started.
+2025-04-10 12:07:51,647 - DEBUG - Sheep moved to (-7.99, -5.08).
+2025-04-10 12:07:51,647 - DEBUG - Sheep moved to (-9.85, 7.71).
+2025-04-10 12:07:51,647 - DEBUG - Sheep moved to (-1.54, -6.02).
+2025-04-10 12:07:51,647 - DEBUG - Sheep moved to (7.79, 8.65).
+2025-04-10 12:07:51,647 - DEBUG - Sheep moved to (3.64, -1.73).
+2025-04-10 12:07:51,647 - DEBUG - Sheep moved to (11.29, -3.16).
+2025-04-10 12:07:51,647 - DEBUG - Sheep moved to (-3.08, -1.79).
+2025-04-10 12:07:51,648 - DEBUG - Sheep moved to (1.93, -9.46).
+2025-04-10 12:07:51,648 - DEBUG - Sheep moved to (-8.03, 3.25).
+2025-04-10 12:07:51,648 - DEBUG - Sheep moved to (6.38, 4.22).
+2025-04-10 12:07:51,648 - DEBUG - Sheep moved to (-1.81, 4.08).
+2025-04-10 12:07:51,648 - DEBUG - Sheep moved to (-7.82, 2.65).
+2025-04-10 12:07:51,648 - DEBUG - Sheep moved to (-1.40, 10.49).
+2025-04-10 12:07:51,650 - INFO - Wolf chasing sheep at (-3.08, -1.79).
+2025-04-10 12:07:51,685 - DEBUG - Round 7 started.
+2025-04-10 12:07:51,685 - DEBUG - Sheep moved to (-7.99, -4.58).
+2025-04-10 12:07:51,685 - DEBUG - Sheep moved to (-9.85, 8.21).
+2025-04-10 12:07:51,686 - DEBUG - Sheep moved to (-1.54, -6.52).
+2025-04-10 12:07:51,686 - DEBUG - Sheep moved to (7.79, 8.15).
+2025-04-10 12:07:51,686 - DEBUG - Sheep moved to (3.14, -1.73).
+2025-04-10 12:07:51,686 - DEBUG - Sheep moved to (11.79, -3.16).
+2025-04-10 12:07:51,686 - DEBUG - Sheep moved to (1.93, -8.96).
+2025-04-10 12:07:51,686 - DEBUG - Sheep moved to (-8.03, 2.75).
+2025-04-10 12:07:51,687 - DEBUG - Sheep moved to (6.88, 4.22).
+2025-04-10 12:07:51,687 - DEBUG - Sheep moved to (-1.81, 3.58).
+2025-04-10 12:07:51,687 - DEBUG - Sheep moved to (-7.82, 2.15).
+2025-04-10 12:07:51,687 - DEBUG - Sheep moved to (-1.90, 10.49).
+2025-04-10 12:07:51,687 - INFO - Wolf chasing sheep at (-1.54, -6.52).
+2025-04-10 12:07:51,724 - DEBUG - Round 8 started.
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (-7.99, -5.08).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (-9.85, 8.71).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (-1.54, -6.02).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (7.29, 8.15).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (2.64, -1.73).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (11.29, -3.16).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (1.43, -8.96).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (-8.53, 2.75).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (6.88, 4.72).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (-1.81, 3.08).
+2025-04-10 12:07:51,725 - DEBUG - Sheep moved to (-7.32, 2.15).
+2025-04-10 12:07:51,726 - DEBUG - Sheep moved to (-1.90, 9.99).
+2025-04-10 12:07:51,726 - INFO - Wolf chasing sheep at (-1.54, -6.02).
+2025-04-10 12:07:51,765 - DEBUG - Round 9 started.
+2025-04-10 12:07:51,765 - DEBUG - Sheep moved to (-7.99, -4.58).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (-9.85, 8.21).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (-1.54, -5.52).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (7.29, 7.65).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (2.64, -1.23).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (11.29, -3.66).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (1.43, -9.46).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (-8.03, 2.75).
+2025-04-10 12:07:51,766 - DEBUG - Sheep moved to (6.88, 5.22).
+2025-04-10 12:07:51,767 - DEBUG - Sheep moved to (-1.31, 3.08).
+2025-04-10 12:07:51,767 - DEBUG - Sheep moved to (-7.32, 1.65).
+2025-04-10 12:07:51,767 - DEBUG - Sheep moved to (-1.90, 9.49).
+2025-04-10 12:07:51,767 - INFO - Wolf chasing sheep at (-1.54, -5.52).
+2025-04-10 12:07:51,806 - DEBUG - Round 10 started.
+2025-04-10 12:07:51,806 - DEBUG - Sheep moved to (-8.49, -4.58).
+2025-04-10 12:07:51,806 - DEBUG - Sheep moved to (-9.85, 7.71).
+2025-04-10 12:07:51,806 - DEBUG - Sheep moved to (-1.04, -5.52).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (7.29, 8.15).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (2.64, -0.73).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (10.79, -3.66).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (1.43, -8.96).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (-8.03, 3.25).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (7.38, 5.22).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (-1.31, 2.58).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (-7.32, 1.15).
+2025-04-10 12:07:51,807 - DEBUG - Sheep moved to (-1.90, 9.99).
+2025-04-10 12:07:51,808 - INFO - Wolf chasing sheep at (-1.04, -5.52).
+2025-04-10 12:07:51,847 - DEBUG - Round 11 started.
+2025-04-10 12:07:51,847 - DEBUG - Sheep moved to (-8.99, -4.58).
+2025-04-10 12:07:51,847 - DEBUG - Sheep moved to (-10.35, 7.71).
+2025-04-10 12:07:51,847 - DEBUG - Sheep moved to (-1.54, -5.52).
+2025-04-10 12:07:51,847 - DEBUG - Sheep moved to (6.79, 8.15).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (3.14, -0.73).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (11.29, -3.66).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (1.43, -9.46).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (-8.03, 3.75).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (6.88, 5.22).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (-1.81, 2.58).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (-7.32, 1.65).
+2025-04-10 12:07:51,848 - DEBUG - Sheep moved to (-1.90, 10.49).
+2025-04-10 12:07:51,849 - INFO - Wolf chasing sheep at (-1.54, -5.52).
+2025-04-10 12:07:51,886 - DEBUG - Round 12 started.
+2025-04-10 12:07:51,886 - DEBUG - Sheep moved to (-8.99, -4.08).
+2025-04-10 12:07:51,886 - DEBUG - Sheep moved to (-9.85, 7.71).
+2025-04-10 12:07:51,886 - DEBUG - Sheep moved to (6.29, 8.15).
+2025-04-10 12:07:51,886 - DEBUG - Sheep moved to (2.64, -0.73).
+2025-04-10 12:07:51,887 - DEBUG - Sheep moved to (11.29, -3.16).
+2025-04-10 12:07:51,887 - DEBUG - Sheep moved to (1.93, -9.46).
+2025-04-10 12:07:51,887 - DEBUG - Sheep moved to (-8.03, 3.25).
+2025-04-10 12:07:51,887 - DEBUG - Sheep moved to (6.38, 5.22).
+2025-04-10 12:07:51,887 - DEBUG - Sheep moved to (-1.81, 2.08).
+2025-04-10 12:07:51,887 - DEBUG - Sheep moved to (-7.32, 2.15).
+2025-04-10 12:07:51,887 - DEBUG - Sheep moved to (-2.40, 10.49).
+2025-04-10 12:07:51,887 - INFO - Wolf chasing sheep at (1.93, -9.46).
+2025-04-10 12:07:51,927 - DEBUG - Round 13 started.
+2025-04-10 12:07:51,927 - DEBUG - Sheep moved to (-8.99, -4.58).
+2025-04-10 12:07:51,927 - DEBUG - Sheep moved to (-9.35, 7.71).
+2025-04-10 12:07:51,927 - DEBUG - Sheep moved to (6.29, 8.65).
+2025-04-10 12:07:51,928 - DEBUG - Sheep moved to (3.14, -0.73).
+2025-04-10 12:07:51,928 - DEBUG - Sheep moved to (11.29, -3.66).
+2025-04-10 12:07:51,928 - DEBUG - Sheep moved to (2.43, -9.46).
+2025-04-10 12:07:51,928 - DEBUG - Sheep moved to (-8.53, 3.25).
+2025-04-10 12:07:51,928 - DEBUG - Sheep moved to (6.38, 5.72).
+2025-04-10 12:07:51,928 - DEBUG - Sheep moved to (-1.31, 2.08).
+2025-04-10 12:07:51,928 - DEBUG - Sheep moved to (-7.32, 2.65).
+2025-04-10 12:07:51,929 - DEBUG - Sheep moved to (-2.40, 10.99).
+2025-04-10 12:07:51,929 - INFO - Wolf chasing sheep at (2.43, -9.46).
+2025-04-10 12:07:51,965 - DEBUG - Round 14 started.
+2025-04-10 12:07:51,966 - DEBUG - Sheep moved to (-8.99, -4.08).
+2025-04-10 12:07:51,966 - DEBUG - Sheep moved to (-9.35, 7.21).
+2025-04-10 12:07:51,966 - DEBUG - Sheep moved to (6.29, 8.15).
+2025-04-10 12:07:51,966 - DEBUG - Sheep moved to (2.64, -0.73).
+2025-04-10 12:07:51,966 - DEBUG - Sheep moved to (11.79, -3.66).
+2025-04-10 12:07:51,966 - DEBUG - Sheep moved to (2.93, -9.46).
+2025-04-10 12:07:51,967 - DEBUG - Sheep moved to (-8.53, 2.75).
+2025-04-10 12:07:51,967 - DEBUG - Sheep moved to (6.88, 5.72).
+2025-04-10 12:07:51,967 - DEBUG - Sheep moved to (-1.81, 2.08).
+2025-04-10 12:07:51,967 - DEBUG - Sheep moved to (-7.32, 3.15).
+2025-04-10 12:07:51,967 - DEBUG - Sheep moved to (-2.40, 10.49).
+2025-04-10 12:07:51,967 - INFO - Wolf chasing sheep at (2.93, -9.46).
+2025-04-10 12:07:52,009 - DEBUG - Round 15 started.
+2025-04-10 12:07:52,009 - DEBUG - Sheep moved to (-8.49, -4.08).
+2025-04-10 12:07:52,009 - DEBUG - Sheep moved to (-9.35, 7.71).
+2025-04-10 12:07:52,010 - DEBUG - Sheep moved to (6.29, 8.65).
+2025-04-10 12:07:52,010 - DEBUG - Sheep moved to (3.14, -0.73).
+2025-04-10 12:07:52,010 - DEBUG - Sheep moved to (11.79, -4.16).
+2025-04-10 12:07:52,010 - DEBUG - Sheep moved to (3.43, -9.46).
+2025-04-10 12:07:52,010 - DEBUG - Sheep moved to (-8.53, 2.25).
+2025-04-10 12:07:52,011 - DEBUG - Sheep moved to (6.88, 5.22).
+2025-04-10 12:07:52,011 - DEBUG - Sheep moved to (-1.81, 2.58).
+2025-04-10 12:07:52,011 - DEBUG - Sheep moved to (-7.32, 3.65).
+2025-04-10 12:07:52,011 - DEBUG - Sheep moved to (-1.90, 10.49).
+2025-04-10 12:07:52,011 - INFO - Wolf chasing sheep at (3.43, -9.46).
+2025-04-10 12:07:52,049 - DEBUG - Round 16 started.
+2025-04-10 12:07:52,049 - DEBUG - Sheep moved to (-8.49, -3.58).
+2025-04-10 12:07:52,049 - DEBUG - Sheep moved to (-9.35, 8.21).
+2025-04-10 12:07:52,049 - DEBUG - Sheep moved to (6.29, 8.15).
+2025-04-10 12:07:52,049 - DEBUG - Sheep moved to (3.14, -0.23).
+2025-04-10 12:07:52,049 - DEBUG - Sheep moved to (11.79, -3.66).
+2025-04-10 12:07:52,049 - DEBUG - Sheep moved to (3.43, -9.96).
+2025-04-10 12:07:52,050 - DEBUG - Sheep moved to (-8.03, 2.25).
+2025-04-10 12:07:52,050 - DEBUG - Sheep moved to (7.38, 5.22).
+2025-04-10 12:07:52,050 - DEBUG - Sheep moved to (-2.31, 2.58).
+2025-04-10 12:07:52,050 - DEBUG - Sheep moved to (-7.82, 3.65).
+2025-04-10 12:07:52,050 - DEBUG - Sheep moved to (-1.90, 9.99).
+2025-04-10 12:07:52,050 - INFO - Wolf chasing sheep at (3.43, -9.96).
+2025-04-10 12:07:52,090 - DEBUG - Round 17 started.
+2025-04-10 12:07:52,090 - DEBUG - Sheep moved to (-8.99, -3.58).
+2025-04-10 12:07:52,090 - DEBUG - Sheep moved to (-8.85, 8.21).
+2025-04-10 12:07:52,090 - DEBUG - Sheep moved to (6.29, 8.65).
+2025-04-10 12:07:52,090 - DEBUG - Sheep moved to (3.14, -0.73).
+2025-04-10 12:07:52,091 - DEBUG - Sheep moved to (11.79, -4.16).
+2025-04-10 12:07:52,091 - DEBUG - Sheep moved to (3.43, -10.46).
+2025-04-10 12:07:52,091 - DEBUG - Sheep moved to (-7.53, 2.25).
+2025-04-10 12:07:52,091 - DEBUG - Sheep moved to (6.88, 5.22).
+2025-04-10 12:07:52,091 - DEBUG - Sheep moved to (-2.31, 3.08).
+2025-04-10 12:07:52,091 - DEBUG - Sheep moved to (-7.82, 3.15).
+2025-04-10 12:07:52,091 - DEBUG - Sheep moved to (-1.40, 9.99).
+2025-04-10 12:07:52,091 - INFO - Wolf chasing sheep at (3.43, -10.46).
+2025-04-10 12:07:52,129 - DEBUG - Round 18 started.
+2025-04-10 12:07:52,129 - DEBUG - Sheep moved to (-8.49, -3.58).
+2025-04-10 12:07:52,129 - DEBUG - Sheep moved to (-9.35, 8.21).
+2025-04-10 12:07:52,129 - DEBUG - Sheep moved to (6.29, 9.15).
+2025-04-10 12:07:52,129 - DEBUG - Sheep moved to (2.64, -0.73).
+2025-04-10 12:07:52,129 - DEBUG - Sheep moved to (11.29, -4.16).
+2025-04-10 12:07:52,130 - DEBUG - Sheep moved to (3.43, -9.96).
+2025-04-10 12:07:52,130 - DEBUG - Sheep moved to (-7.53, 2.75).
+2025-04-10 12:07:52,130 - DEBUG - Sheep moved to (6.88, 5.72).
+2025-04-10 12:07:52,130 - DEBUG - Sheep moved to (-2.81, 3.08).
+2025-04-10 12:07:52,130 - DEBUG - Sheep moved to (-7.82, 2.65).
+2025-04-10 12:07:52,130 - DEBUG - Sheep moved to (-1.40, 9.49).
+2025-04-10 12:07:52,131 - INFO - Wolf chasing sheep at (3.43, -9.96).
+2025-04-10 12:07:52,168 - DEBUG - Round 19 started.
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (-8.49, -4.08).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (-9.85, 8.21).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (5.79, 9.15).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (3.14, -0.73).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (11.29, -3.66).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (-7.53, 3.25).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (6.38, 5.72).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (-2.31, 3.08).
+2025-04-10 12:07:52,169 - DEBUG - Sheep moved to (-7.82, 2.15).
+2025-04-10 12:07:52,170 - DEBUG - Sheep moved to (-1.90, 9.49).
+2025-04-10 12:07:52,170 - INFO - Wolf chasing sheep at (3.14, -0.73).
+2025-04-10 12:07:52,209 - DEBUG - Round 20 started.
+2025-04-10 12:07:52,209 - DEBUG - Sheep moved to (-8.49, -3.58).
+2025-04-10 12:07:52,210 - DEBUG - Sheep moved to (-9.35, 8.21).
+2025-04-10 12:07:52,210 - DEBUG - Sheep moved to (6.29, 9.15).
+2025-04-10 12:07:52,210 - DEBUG - Sheep moved to (3.14, -1.23).
+2025-04-10 12:07:52,210 - DEBUG - Sheep moved to (10.79, -3.66).
+2025-04-10 12:07:52,210 - DEBUG - Sheep moved to (-7.53, 3.75).
+2025-04-10 12:07:52,210 - DEBUG - Sheep moved to (6.38, 5.22).
+2025-04-10 12:07:52,211 - DEBUG - Sheep moved to (-1.81, 3.08).
+2025-04-10 12:07:52,211 - DEBUG - Sheep moved to (-7.32, 2.15).
+2025-04-10 12:07:52,211 - DEBUG - Sheep moved to (-1.40, 9.49).
+2025-04-10 12:07:52,212 - INFO - Wolf chasing sheep at (3.14, -1.23).
+2025-04-10 12:07:52,249 - DEBUG - Round 21 started.
+2025-04-10 12:07:52,249 - DEBUG - Sheep moved to (-7.99, -3.58).
+2025-04-10 12:07:52,249 - DEBUG - Sheep moved to (-8.85, 8.21).
+2025-04-10 12:07:52,249 - DEBUG - Sheep moved to (5.79, 9.15).
+2025-04-10 12:07:52,249 - DEBUG - Sheep moved to (3.14, -0.73).
+2025-04-10 12:07:52,249 - DEBUG - Sheep moved to (10.29, -3.66).
+2025-04-10 12:07:52,249 - DEBUG - Sheep moved to (-8.03, 3.75).
+2025-04-10 12:07:52,250 - DEBUG - Sheep moved to (5.88, 5.22).
+2025-04-10 12:07:52,250 - DEBUG - Sheep moved to (-2.31, 3.08).
+2025-04-10 12:07:52,250 - DEBUG - Sheep moved to (-7.32, 1.65).
+2025-04-10 12:07:52,250 - DEBUG - Sheep moved to (-1.90, 9.49).
+2025-04-10 12:07:52,250 - INFO - Wolf chasing sheep at (3.14, -0.73).
+2025-04-10 12:07:52,290 - DEBUG - Round 22 started.
+2025-04-10 12:07:52,290 - DEBUG - Sheep moved to (-7.99, -3.08).
+2025-04-10 12:07:52,290 - DEBUG - Sheep moved to (-8.85, 7.71).
+2025-04-10 12:07:52,290 - DEBUG - Sheep moved to (6.29, 9.15).
+2025-04-10 12:07:52,290 - DEBUG - Sheep moved to (2.64, -0.73).
+2025-04-10 12:07:52,290 - DEBUG - Sheep moved to (10.79, -3.66).
+2025-04-10 12:07:52,290 - DEBUG - Sheep moved to (-7.53, 3.75).
+2025-04-10 12:07:52,291 - DEBUG - Sheep moved to (5.88, 5.72).
+2025-04-10 12:07:52,291 - DEBUG - Sheep moved to (-2.31, 2.58).
+2025-04-10 12:07:52,291 - DEBUG - Sheep moved to (-7.32, 1.15).
+2025-04-10 12:07:52,291 - DEBUG - Sheep moved to (-1.90, 9.99).
+2025-04-10 12:07:52,291 - INFO - Wolf chasing sheep at (2.64, -0.73).
+2025-04-10 12:07:52,329 - DEBUG - Round 23 started.
+2025-04-10 12:07:52,329 - DEBUG - Sheep moved to (-7.49, -3.08).
+2025-04-10 12:07:52,329 - DEBUG - Sheep moved to (-8.35, 7.71).
+2025-04-10 12:07:52,329 - DEBUG - Sheep moved to (5.79, 9.15).
+2025-04-10 12:07:52,329 - DEBUG - Sheep moved to (2.64, -0.23).
+2025-04-10 12:07:52,329 - DEBUG - Sheep moved to (10.29, -3.66).
+2025-04-10 12:07:52,330 - DEBUG - Sheep moved to (-8.03, 3.75).
+2025-04-10 12:07:52,330 - DEBUG - Sheep moved to (6.38, 5.72).
+2025-04-10 12:07:52,330 - DEBUG - Sheep moved to (-2.31, 3.08).
+2025-04-10 12:07:52,330 - DEBUG - Sheep moved to (-6.82, 1.15).
+2025-04-10 12:07:52,330 - DEBUG - Sheep moved to (-2.40, 9.99).
+2025-04-10 12:07:52,330 - INFO - Wolf chasing sheep at (2.64, -0.23).
+2025-04-10 12:07:52,372 - DEBUG - Round 24 started.
+2025-04-10 12:07:52,372 - DEBUG - Sheep moved to (-7.49, -3.58).
+2025-04-10 12:07:52,372 - DEBUG - Sheep moved to (-8.35, 7.21).
+2025-04-10 12:07:52,372 - DEBUG - Sheep moved to (5.29, 9.15).
+2025-04-10 12:07:52,372 - DEBUG - Sheep moved to (2.64, 0.27).
+2025-04-10 12:07:52,372 - DEBUG - Sheep moved to (10.29, -4.16).
+2025-04-10 12:07:52,373 - DEBUG - Sheep moved to (-8.03, 4.25).
+2025-04-10 12:07:52,373 - DEBUG - Sheep moved to (6.38, 6.22).
+2025-04-10 12:07:52,373 - DEBUG - Sheep moved to (-2.31, 3.58).
+2025-04-10 12:07:52,373 - DEBUG - Sheep moved to (-7.32, 1.15).
+2025-04-10 12:07:52,373 - DEBUG - Sheep moved to (-2.40, 10.49).
+2025-04-10 12:07:52,373 - INFO - Wolf chasing sheep at (2.64, 0.27).
+2025-04-10 12:07:52,409 - DEBUG - Round 25 started.
+2025-04-10 12:07:52,409 - DEBUG - Sheep moved to (-7.49, -3.08).
+2025-04-10 12:07:52,409 - DEBUG - Sheep moved to (-8.35, 6.71).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (5.79, 9.15).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (3.14, 0.27).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (10.79, -4.16).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (-8.53, 4.25).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (6.38, 6.72).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (-2.31, 3.08).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (-7.32, 1.65).
+2025-04-10 12:07:52,410 - DEBUG - Sheep moved to (-2.90, 10.49).
+2025-04-10 12:07:52,410 - INFO - Wolf chasing sheep at (3.14, 0.27).
+2025-04-10 12:07:52,448 - DEBUG - Round 26 started.
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (-7.99, -3.08).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (-7.85, 6.71).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (5.79, 8.65).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (3.14, 0.77).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (11.29, -4.16).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (-9.03, 4.25).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (6.38, 7.22).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (-1.81, 3.08).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (-7.82, 1.65).
+2025-04-10 12:07:52,449 - DEBUG - Sheep moved to (-2.90, 9.99).
+2025-04-10 12:07:52,450 - INFO - Wolf chasing sheep at (3.14, 0.77).
+2025-04-10 12:07:52,495 - DEBUG - Round 27 started.
+2025-04-10 12:07:52,495 - DEBUG - Sheep moved to (-7.99, -3.58).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (-8.35, 6.71).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (6.29, 8.65).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (2.64, 0.77).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (11.29, -3.66).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (-8.53, 4.25).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (6.38, 6.72).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (-1.81, 2.58).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (-8.32, 1.65).
+2025-04-10 12:07:52,496 - DEBUG - Sheep moved to (-3.40, 9.99).
+2025-04-10 12:07:52,497 - INFO - Wolf chasing sheep at (2.64, 0.77).
+2025-04-10 12:07:52,533 - DEBUG - Round 28 started.
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (-8.49, -3.58).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (-8.85, 6.71).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (6.79, 8.65).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (2.64, 1.27).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (11.29, -4.16).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (-8.53, 4.75).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (5.88, 6.72).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (-1.81, 2.08).
+2025-04-10 12:07:52,534 - DEBUG - Sheep moved to (-7.82, 1.65).
+2025-04-10 12:07:52,535 - DEBUG - Sheep moved to (-3.40, 9.49).
+2025-04-10 12:07:52,535 - INFO - Wolf chasing sheep at (2.64, 1.27).
+2025-04-10 12:07:52,574 - DEBUG - Round 29 started.
+2025-04-10 12:07:52,574 - DEBUG - Sheep moved to (-7.99, -3.58).
+2025-04-10 12:07:52,575 - DEBUG - Sheep moved to (-8.35, 6.71).
+2025-04-10 12:07:52,575 - DEBUG - Sheep moved to (6.29, 8.65).
+2025-04-10 12:07:52,575 - DEBUG - Sheep moved to (3.14, 1.27).
+2025-04-10 12:07:52,575 - DEBUG - Sheep moved to (11.29, -4.66).
+2025-04-10 12:07:52,576 - DEBUG - Sheep moved to (-8.53, 5.25).
+2025-04-10 12:07:52,576 - DEBUG - Sheep moved to (5.88, 7.22).
+2025-04-10 12:07:52,576 - DEBUG - Sheep moved to (-1.31, 2.08).
+2025-04-10 12:07:52,576 - DEBUG - Sheep moved to (-7.32, 1.65).
+2025-04-10 12:07:52,576 - DEBUG - Sheep moved to (-2.90, 9.49).
+2025-04-10 12:07:52,577 - INFO - Wolf chasing sheep at (3.14, 1.27).
+2025-04-10 12:07:52,614 - DEBUG - Round 30 started.
+2025-04-10 12:07:52,614 - DEBUG - Sheep moved to (-7.99, -4.08).
+2025-04-10 12:07:52,615 - DEBUG - Sheep moved to (-8.35, 7.21).
+2025-04-10 12:07:52,615 - DEBUG - Sheep moved to (6.79, 8.65).
+2025-04-10 12:07:52,615 - DEBUG - Sheep moved to (3.14, 0.77).
+2025-04-10 12:07:52,616 - DEBUG - Sheep moved to (11.29, -4.16).
+2025-04-10 12:07:52,616 - DEBUG - Sheep moved to (-8.53, 4.75).
+2025-04-10 12:07:52,616 - DEBUG - Sheep moved to (5.88, 6.72).
+2025-04-10 12:07:52,616 - DEBUG - Sheep moved to (-0.81, 2.08).
+2025-04-10 12:07:52,616 - DEBUG - Sheep moved to (-7.82, 1.65).
+2025-04-10 12:07:52,616 - DEBUG - Sheep moved to (-2.90, 9.99).
+2025-04-10 12:07:52,618 - INFO - Wolf chasing sheep at (3.14, 0.77).
+2025-04-10 12:07:52,654 - DEBUG - Round 31 started.
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (-7.99, -4.58).
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (-8.85, 7.21).
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (6.79, 9.15).
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (11.29, -4.66).
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (-8.53, 5.25).
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (5.88, 6.22).
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (-0.31, 2.08).
+2025-04-10 12:07:52,655 - DEBUG - Sheep moved to (-7.82, 1.15).
+2025-04-10 12:07:52,656 - DEBUG - Sheep moved to (-2.40, 9.99).
+2025-04-10 12:07:52,656 - INFO - Wolf chasing sheep at (-0.31, 2.08).
+2025-04-10 12:07:52,694 - DEBUG - Round 32 started.
+2025-04-10 12:07:52,694 - DEBUG - Sheep moved to (-7.99, -4.08).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (-8.85, 6.71).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (6.79, 9.65).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (10.79, -4.66).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (-8.53, 5.75).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (5.38, 6.22).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (-0.31, 1.58).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (-7.82, 0.65).
+2025-04-10 12:07:52,695 - DEBUG - Sheep moved to (-2.40, 10.49).
+2025-04-10 12:07:52,696 - INFO - Wolf chasing sheep at (-0.31, 1.58).
+2025-04-10 12:07:52,733 - DEBUG - Round 33 started.
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (-7.99, -3.58).
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (-8.85, 6.21).
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (6.79, 9.15).
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (11.29, -4.66).
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (-9.03, 5.75).
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (4.88, 6.22).
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (-0.31, 1.08).
+2025-04-10 12:07:52,734 - DEBUG - Sheep moved to (-7.82, 0.15).
+2025-04-10 12:07:52,735 - DEBUG - Sheep moved to (-1.90, 10.49).
+2025-04-10 12:07:52,735 - INFO - Wolf chasing sheep at (-0.31, 1.08).
+2025-04-10 12:07:52,775 - DEBUG - Round 34 started.
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (-7.99, -3.08).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (-8.85, 5.71).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (6.79, 9.65).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (10.79, -4.66).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (-8.53, 5.75).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (4.88, 6.72).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (-0.31, 0.58).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (-7.32, 0.15).
+2025-04-10 12:07:52,776 - DEBUG - Sheep moved to (-1.40, 10.49).
+2025-04-10 12:07:52,777 - INFO - Wolf chasing sheep at (-0.31, 0.58).
+2025-04-10 12:07:52,814 - DEBUG - Round 35 started.
+2025-04-10 12:07:52,814 - DEBUG - Sheep moved to (-7.99, -2.58).
+2025-04-10 12:07:52,814 - DEBUG - Sheep moved to (-9.35, 5.71).
+2025-04-10 12:07:52,814 - DEBUG - Sheep moved to (6.29, 9.65).
+2025-04-10 12:07:52,814 - DEBUG - Sheep moved to (10.29, -4.66).
+2025-04-10 12:07:52,815 - DEBUG - Sheep moved to (-8.53, 5.25).
+2025-04-10 12:07:52,815 - DEBUG - Sheep moved to (4.88, 7.22).
+2025-04-10 12:07:52,815 - DEBUG - Sheep moved to (-7.32, 0.65).
+2025-04-10 12:07:52,815 - DEBUG - Sheep moved to (-1.40, 10.99).
+2025-04-10 12:07:52,816 - INFO - Wolf chasing sheep at (-7.32, 0.65).
+2025-04-10 12:07:52,856 - DEBUG - Round 36 started.
+2025-04-10 12:07:52,857 - DEBUG - Sheep moved to (-7.99, -2.08).
+2025-04-10 12:07:52,857 - DEBUG - Sheep moved to (-8.85, 5.71).
+2025-04-10 12:07:52,857 - DEBUG - Sheep moved to (5.79, 9.65).
+2025-04-10 12:07:52,857 - DEBUG - Sheep moved to (10.29, -5.16).
+2025-04-10 12:07:52,858 - DEBUG - Sheep moved to (-8.53, 4.75).
+2025-04-10 12:07:52,858 - DEBUG - Sheep moved to (4.88, 6.72).
+2025-04-10 12:07:52,858 - DEBUG - Sheep moved to (-7.32, 1.15).
+2025-04-10 12:07:52,858 - DEBUG - Sheep moved to (-1.40, 11.49).
+2025-04-10 12:07:52,859 - INFO - Wolf chasing sheep at (-7.32, 1.15).
+2025-04-10 12:07:52,894 - DEBUG - Round 37 started.
+2025-04-10 12:07:52,894 - DEBUG - Sheep moved to (-7.99, -1.58).
+2025-04-10 12:07:52,895 - DEBUG - Sheep moved to (-8.35, 5.71).
+2025-04-10 12:07:52,895 - DEBUG - Sheep moved to (5.29, 9.65).
+2025-04-10 12:07:52,895 - DEBUG - Sheep moved to (9.79, -5.16).
+2025-04-10 12:07:52,895 - DEBUG - Sheep moved to (-8.53, 5.25).
+2025-04-10 12:07:52,895 - DEBUG - Sheep moved to (4.88, 6.22).
+2025-04-10 12:07:52,895 - DEBUG - Sheep moved to (-7.32, 0.65).
+2025-04-10 12:07:52,895 - DEBUG - Sheep moved to (-1.90, 11.49).
+2025-04-10 12:07:52,896 - INFO - Wolf chasing sheep at (-7.32, 0.65).
+2025-04-10 12:07:52,934 - DEBUG - Round 38 started.
+2025-04-10 12:07:52,934 - DEBUG - Sheep moved to (-8.49, -1.58).
+2025-04-10 12:07:52,934 - DEBUG - Sheep moved to (-7.85, 5.71).
+2025-04-10 12:07:52,934 - DEBUG - Sheep moved to (5.29, 9.15).
+2025-04-10 12:07:52,934 - DEBUG - Sheep moved to (9.79, -4.66).
+2025-04-10 12:07:52,935 - DEBUG - Sheep moved to (-8.03, 5.25).
+2025-04-10 12:07:52,935 - DEBUG - Sheep moved to (5.38, 6.22).
+2025-04-10 12:07:52,935 - DEBUG - Sheep moved to (-6.82, 0.65).
+2025-04-10 12:07:52,935 - DEBUG - Sheep moved to (-1.90, 11.99).
+2025-04-10 12:07:52,936 - INFO - Wolf chasing sheep at (-6.82, 0.65).
+2025-04-10 12:07:52,977 - DEBUG - Round 39 started.
+2025-04-10 12:07:52,977 - DEBUG - Sheep moved to (-8.49, -1.08).
+2025-04-10 12:07:52,978 - DEBUG - Sheep moved to (-7.35, 5.71).
+2025-04-10 12:07:52,978 - DEBUG - Sheep moved to (5.79, 9.15).
+2025-04-10 12:07:52,978 - DEBUG - Sheep moved to (9.29, -4.66).
+2025-04-10 12:07:52,978 - DEBUG - Sheep moved to (-8.03, 5.75).
+2025-04-10 12:07:52,978 - DEBUG - Sheep moved to (5.38, 5.72).
+2025-04-10 12:07:52,978 - DEBUG - Sheep moved to (-6.32, 0.65).
+2025-04-10 12:07:52,978 - DEBUG - Sheep moved to (-1.90, 12.49).
+2025-04-10 12:07:52,978 - INFO - Wolf chasing sheep at (-6.32, 0.65).
+2025-04-10 12:07:53,017 - DEBUG - Round 40 started.
+2025-04-10 12:07:53,018 - DEBUG - Sheep moved to (-7.99, -1.08).
+2025-04-10 12:07:53,018 - DEBUG - Sheep moved to (-7.35, 5.21).
+2025-04-10 12:07:53,018 - DEBUG - Sheep moved to (5.79, 9.65).
+2025-04-10 12:07:53,018 - DEBUG - Sheep moved to (9.29, -5.16).
+2025-04-10 12:07:53,018 - DEBUG - Sheep moved to (-8.03, 5.25).
+2025-04-10 12:07:53,018 - DEBUG - Sheep moved to (4.88, 5.72).
+2025-04-10 12:07:53,018 - DEBUG - Sheep moved to (-5.82, 0.65).
+2025-04-10 12:07:53,019 - DEBUG - Sheep moved to (-1.90, 12.99).
+2025-04-10 12:07:53,019 - INFO - Wolf chasing sheep at (-5.82, 0.65).
+2025-04-10 12:07:53,058 - DEBUG - Round 41 started.
+2025-04-10 12:07:53,058 - DEBUG - Sheep moved to (-8.49, -1.08).
+2025-04-10 12:07:53,059 - DEBUG - Sheep moved to (-6.85, 5.21).
+2025-04-10 12:07:53,059 - DEBUG - Sheep moved to (5.79, 10.15).
+2025-04-10 12:07:53,059 - DEBUG - Sheep moved to (9.29, -4.66).
+2025-04-10 12:07:53,059 - DEBUG - Sheep moved to (-8.03, 5.75).
+2025-04-10 12:07:53,059 - DEBUG - Sheep moved to (5.38, 5.72).
+2025-04-10 12:07:53,059 - DEBUG - Sheep moved to (-1.90, 13.49).
+2025-04-10 12:07:53,060 - INFO - Wolf chasing sheep at (-8.49, -1.08).
+2025-04-10 12:07:53,097 - DEBUG - Round 42 started.
+2025-04-10 12:07:53,097 - DEBUG - Sheep moved to (-7.99, -1.08).
+2025-04-10 12:07:53,097 - DEBUG - Sheep moved to (-6.35, 5.21).
+2025-04-10 12:07:53,097 - DEBUG - Sheep moved to (6.29, 10.15).
+2025-04-10 12:07:53,098 - DEBUG - Sheep moved to (9.29, -4.16).
+2025-04-10 12:07:53,098 - DEBUG - Sheep moved to (-8.03, 5.25).
+2025-04-10 12:07:53,098 - DEBUG - Sheep moved to (5.88, 5.72).
+2025-04-10 12:07:53,098 - DEBUG - Sheep moved to (-2.40, 13.49).
+2025-04-10 12:07:53,098 - INFO - Wolf chasing sheep at (-7.99, -1.08).
+2025-04-10 12:07:53,137 - DEBUG - Round 43 started.
+2025-04-10 12:07:53,137 - DEBUG - Sheep moved to (-7.99, -1.58).
+2025-04-10 12:07:53,137 - DEBUG - Sheep moved to (-6.85, 5.21).
+2025-04-10 12:07:53,138 - DEBUG - Sheep moved to (6.79, 10.15).
+2025-04-10 12:07:53,138 - DEBUG - Sheep moved to (9.29, -4.66).
+2025-04-10 12:07:53,138 - DEBUG - Sheep moved to (-8.03, 5.75).
+2025-04-10 12:07:53,138 - DEBUG - Sheep moved to (5.88, 6.22).
+2025-04-10 12:07:53,138 - DEBUG - Sheep moved to (-2.40, 12.99).
+2025-04-10 12:07:53,139 - INFO - Wolf chasing sheep at (-7.99, -1.58).
+2025-04-10 12:07:53,179 - DEBUG - Round 44 started.
+2025-04-10 12:07:53,180 - DEBUG - Sheep moved to (-8.49, -1.58).
+2025-04-10 12:07:53,180 - DEBUG - Sheep moved to (-6.85, 5.71).
+2025-04-10 12:07:53,180 - DEBUG - Sheep moved to (6.79, 9.65).
+2025-04-10 12:07:53,180 - DEBUG - Sheep moved to (9.29, -4.16).
+2025-04-10 12:07:53,180 - DEBUG - Sheep moved to (-8.03, 6.25).
+2025-04-10 12:07:53,180 - DEBUG - Sheep moved to (6.38, 6.22).
+2025-04-10 12:07:53,180 - DEBUG - Sheep moved to (-2.40, 13.49).
+2025-04-10 12:07:53,180 - INFO - Wolf chasing sheep at (-8.49, -1.58).
+2025-04-10 12:07:53,533 - DEBUG - Round 45 started.
+2025-04-10 12:07:53,533 - DEBUG - Sheep moved to (-6.85, 5.21).
+2025-04-10 12:07:53,533 - DEBUG - Sheep moved to (6.79, 9.15).
+2025-04-10 12:07:53,533 - DEBUG - Sheep moved to (9.29, -3.66).
+2025-04-10 12:07:53,533 - DEBUG - Sheep moved to (-8.53, 6.25).
+2025-04-10 12:07:53,533 - DEBUG - Sheep moved to (6.38, 5.72).
+2025-04-10 12:07:53,534 - DEBUG - Sheep moved to (-1.90, 13.49).
+2025-04-10 12:07:53,534 - INFO - Wolf chasing sheep at (-6.85, 5.21).
+2025-04-10 12:07:53,704 - DEBUG - Round 46 started.
+2025-04-10 12:07:53,705 - DEBUG - Sheep moved to (-6.35, 5.21).
+2025-04-10 12:07:53,705 - DEBUG - Sheep moved to (6.79, 8.65).
+2025-04-10 12:07:53,705 - DEBUG - Sheep moved to (9.79, -3.66).
+2025-04-10 12:07:53,705 - DEBUG - Sheep moved to (-8.53, 5.75).
+2025-04-10 12:07:53,705 - DEBUG - Sheep moved to (6.88, 5.72).
+2025-04-10 12:07:53,705 - DEBUG - Sheep moved to (-1.90, 13.99).
+2025-04-10 12:07:53,705 - INFO - Wolf chasing sheep at (-6.35, 5.21).
+2025-04-10 12:07:53,845 - DEBUG - Round 47 started.
+2025-04-10 12:07:53,845 - DEBUG - Sheep moved to (-5.85, 5.21).
+2025-04-10 12:07:53,845 - DEBUG - Sheep moved to (7.29, 8.65).
+2025-04-10 12:07:53,846 - DEBUG - Sheep moved to (9.79, -4.16).
+2025-04-10 12:07:53,846 - DEBUG - Sheep moved to (-9.03, 5.75).
+2025-04-10 12:07:53,846 - DEBUG - Sheep moved to (6.38, 5.72).
+2025-04-10 12:07:53,846 - DEBUG - Sheep moved to (-2.40, 13.99).
+2025-04-10 12:07:53,846 - INFO - Wolf chasing sheep at (-5.85, 5.21).
+2025-04-10 12:07:53,966 - DEBUG - Round 48 started.
+2025-04-10 12:07:53,966 - DEBUG - Sheep moved to (-5.35, 5.21).
+2025-04-10 12:07:53,966 - DEBUG - Sheep moved to (7.29, 8.15).
+2025-04-10 12:07:53,967 - DEBUG - Sheep moved to (10.29, -4.16).
+2025-04-10 12:07:53,967 - DEBUG - Sheep moved to (-8.53, 5.75).
+2025-04-10 12:07:53,967 - DEBUG - Sheep moved to (5.88, 5.72).
+2025-04-10 12:07:53,967 - DEBUG - Sheep moved to (-2.90, 13.99).
+2025-04-10 12:07:53,967 - INFO - Wolf chasing sheep at (-5.35, 5.21).
+2025-04-10 12:07:54,118 - DEBUG - Round 49 started.
+2025-04-10 12:07:54,118 - DEBUG - Sheep moved to (-5.85, 5.21).
+2025-04-10 12:07:54,118 - DEBUG - Sheep moved to (7.29, 8.65).
+2025-04-10 12:07:54,119 - DEBUG - Sheep moved to (10.29, -3.66).
+2025-04-10 12:07:54,119 - DEBUG - Sheep moved to (-8.53, 6.25).
+2025-04-10 12:07:54,119 - DEBUG - Sheep moved to (5.88, 6.22).
+2025-04-10 12:07:54,119 - DEBUG - Sheep moved to (-3.40, 13.99).
+2025-04-10 12:07:54,119 - INFO - Wolf chasing sheep at (-5.85, 5.21).
+2025-04-10 12:07:54,492 - DEBUG - Round 50 started.
+2025-04-10 12:07:54,492 - DEBUG - Sheep moved to (-5.85, 4.71).
+2025-04-10 12:07:54,492 - DEBUG - Sheep moved to (7.79, 8.65).
+2025-04-10 12:07:54,492 - DEBUG - Sheep moved to (9.79, -3.66).
+2025-04-10 12:07:54,492 - DEBUG - Sheep moved to (-8.53, 5.75).
+2025-04-10 12:07:54,493 - DEBUG - Sheep moved to (5.88, 6.72).
+2025-04-10 12:07:54,493 - DEBUG - Sheep moved to (-2.90, 13.99).
+2025-04-10 12:07:54,493 - INFO - Wolf chasing sheep at (-5.85, 4.71).
+2025-04-10 12:07:54,812 - INFO - 50 rounds passed, the sheep survived!
+2025-04-10 12:07:54,825 - INFO - Simulation ended.
