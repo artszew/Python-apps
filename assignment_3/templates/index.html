@@ -20,22 +20,31 @@
 
 <div class="card shadow-sm rounded-4 p-4 mt-3 mb-3 mx-3 mx-md-3">
 
-    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 mt-4 mb-5 shadow-sm rounded-4">
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 mt-2 mb-5 shadow-sm rounded-4">
         <h1 class="fw-bold mb-0 text-center">Sprawdź liczbę odsłon&nbsp;artykułów</h1>
         <img src="../static/logo.png"
              alt="Wikipedia logo"
              style="max-width:140px;">
        </div>
+    <div class="text-center mt-3 mb-4 px-3 shadow-sm">
+  <p class="lead mb-0">
+    Strona służąca do porównywania liczby wyświetleń artykułów na Wikipedii.
+    Umożliwia porównywanie różnych artykułów oraz ich liczby odsłon na poszczególnych wersjach językowych portalu.
+    Po naciśnięciu na przycisk <i>porównaj popularność</i> zostanie wygenerowany skumulowany wykres warstwowy
+      oraz tabela, którą można pobrać ze strony w formacie <i>csv</i>.
+  </p>
+    </div>
+
 
     <form method="POST" class="row g-3">
         <div class="mt-4 col-12">
-            <label class="form-label">Artykuły:</label>
+            <label class="form-label">Artykuły do porównania:</label>
             <div id="articles-container">
                 {% for article in article_titles %}
-                    <input type="text" name="article" value="{{ article }}" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu">
+                    <input type="text" name="article" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu np. Owczarek niemiecki">
                 {% endfor %}
                 {% if not article_titles %}
-                    <input type="text" name="article" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu">
+                    <input type="text" name="article" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu np. Jamnik">
                 {% endif %}
             </div>
             <button type="button" class="btn btn-secondary" onclick="addArticleField()">Dodaj artykuł</button>
@@ -43,7 +52,7 @@
         </div>
         <div class="col-md-6">
             <label class="form-label">Wersje językowe Wikipedii:</label>
-                <select class="form-select shadow-sm rounded-4" name="language" id="language-select" multiple required style="height: 400px;">
+                <select class="form-select shadow-sm rounded-4" name="language" id="language-select" multiple required>
                     {% for code, name in languages_list %}
                         <option value="{{ code }}" {% if code in selected_languages %}selected{% endif %}>
                             {{ name }} ({{ code }})
@@ -183,7 +192,7 @@
 <script>
     $(document).ready(function () {
         $('#language-select').select2({
-            placeholder: "Wyszukaj kraj, którego wersję językową chcesz uwzglednić",
+            placeholder: "Wyszukaj wersję językową, którą chcesz analizować",
             width: '100%',
             allowClear: true
         });
