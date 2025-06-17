@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Popularność artykułów na Wikipedii</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.3.min.js"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.7.3.min.js"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.7.3.min.js"></script>
+    <link href="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.3.min.css" rel="stylesheet">
+    <link href="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.7.3.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.3.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+<body class="bg-light">
+
+<div class="card shadow-sm rounded-4 p-4 mt-3 mb-3 mx-3 mx-md-3">
+
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 mt-4 mb-5 shadow-sm rounded-4">
+        <h1 class="fw-bold mb-0 text-center">Sprawdź liczbę odsłon&nbsp;artykułów</h1>
+        <img src="../static/logo.png"
+             alt="Wikipedia logo"
+             style="max-width:140px;">
+       </div>
+
+    <form method="POST" class="row g-3">
+        <div class="mt-4 col-12">
+            <label class="form-label">Artykuły:</label>
+            <div id="articles-container">
+                {% for article in article_titles %}
+                    <input type="text" name="article" value="{{ article }}" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu">
+                {% endfor %}
+                {% if not article_titles %}
+                    <input type="text" name="article" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu">
+                {% endif %}
+            </div>
+            <button type="button" class="btn btn-secondary" onclick="addArticleField()">Dodaj artykuł</button>
+            <button type="button" class="btn btn-secondary" onclick="removeArticleField()">Usuń artykuł</button>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Wersje językowe Wikipedii:</label>
+                <select class="form-select shadow-sm rounded-4" name="language" id="language-select" multiple required style="height: 400px;">
+                    {% for code, name in languages_list %}
+                        <option value="{{ code }}" {% if code in selected_languages %}selected{% endif %}>
+                            {{ name }} ({{ code }})
+                        </option>
+                    {% endfor %}
+                </select>
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Data początkowa:</label>
+           <input type="date" name="start_date" id="start-date" max="{{ today }}" class="form-control shadow-sm rounded-4" required
+       value="{{ selected_start_date }}">
+            <label class="form-label">Data końcowa:</label>
+            <input type="date" name="end_date" id="end-date" max="{{ today }}" class="form-control shadow-sm rounded-4" required
+       value="{{ selected_end_date }}">
+        </div>
+
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-success mt-3 px-4 shadow-sm rounded-4">Porównaj popularność</button>
+            <button type="submit" class="btn btn-danger mt-3 ms-2 shadow-sm rounded-4" name="clear" value="1">Wyczyść wszystko</button>
+        </div><!--
+        <div class="col-12 text-center">
+        </div>-->
+    </form>
+
+    {% if error_msg %}
+        <div class="alert alert-danger d-flex align-items-center" role="alert">
+     <div class="ms-2">{{ error_msg }}</div>
+        </div>
+
+    {% endif %}
+
+    {% if chart_html %}
+        <div id="chart-container" class="mt-5">
+          {{ div | safe }}  {{ script | safe }}
+        </div>
+    {% endif %}
+
+{% if table_data %}
+<div class="mt-5">
+    <button id="toggle-table-btn" class="btn btn-primary mb-3">Pokaż dane tabelaryczne</button>
+    <button id="download-csv-btn" class="btn btn-success mb-3" style="display: none;">Pobierz tabelę</button>
+
+    <div id="data-table-container" style="display: none;">
+        <div class="table-responsive shadow-sm rounded">
+            <table class="table table-striped table-bordered align-middle text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Data</th>
+                        {% for key in table_data[0].keys() %}
+                            {% if key != 'date' %}
+                                <th>{{ key }}</th>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in table_data %}
+                        <tr>
+                            <td>{{ row.date }}</td>
+                            {% for key in row.keys() %}
+                                {% if key != 'date' %}
+                                    <td>{{ row[key]|int }}</td>
+                                {% endif %}
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+</div>
+
+<footer class="card text-center mt-5 text-muted">
+    <small>© 2025 | Artur Szewczykowski</small>
+</footer>
+
+<script>
+    function addArticleField() {
+        const container = document.getElementById('articles-container');
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.name = 'article';
+        input.className = 'form-control mb-2 shadow-sm rounded-4';
+        input.placeholder = 'Wprowadź nazwę artykułu';
+        container.appendChild(input);
+    }
+</script>
+<script>
+    function removeArticleField() {
+        const container = document.getElementById('articles-container');
+        const inputs = container.getElementsByTagName('input');
+        if (inputs.length > 1) {
+            container.removeChild(inputs[inputs.length - 1]);}
+    }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggleBtn = document.getElementById('toggle-table-btn');
+        const tableContainer = document.getElementById('data-table-container');
+        const downloadBtn = document.getElementById('download-csv-btn');
+
+        if (toggleBtn && tableContainer) {
+            toggleBtn.addEventListener('click', function () {
+                const visible = tableContainer.style.display === 'block';
+                tableContainer.style.display = visible ? 'none' : 'block';
+                downloadBtn.style.display = visible ? 'none' : 'inline-block';
+                toggleBtn.innerHTML = visible
+                ? 'Pokaż dane tabelaryczne'
+                : 'Ukryj tabelę';
+            });
+        }
+
+        if (downloadBtn) {
+            downloadBtn.addEventListener('click', function () {
+                const table = document.getElementById('data-table');
+                let csv = '';
+                const rows = table.querySelectorAll('tr');
+                rows.forEach(row => {
+                    const cols = row.querySelectorAll('th, td');
+                    const rowData = Array.from(cols).map(cell => `"${cell.innerText.replace(/"/g, '""')}"`).join(',');
+                    csv += rowData + '\n';
+                });
+
+                const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = 'wikipedia_dane.csv';
+                link.click();
+            });
+        }
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('#language-select').select2({
+            placeholder: "Wyszukaj kraj, którego wersję językową chcesz uwzglednić",
+            width: '100%',
+            allowClear: true
+        });
+    });
+</script>
+<script>
+    document.getElementById('start-date').addEventListener('change', function () {
+        const endDateInput = document.getElementById('end-date');
+        const startDate = new Date(this.value);
+
+        if (!isNaN(startDate)) {
+            // Dodaj 1 dzień
+            const minEndDate = new Date(startDate);
+            minEndDate.setDate(startDate.getDate() + 1);
+
+            // Format do YYYY-MM-DD
+            const yyyy = minEndDate.getFullYear();
+            const mm = String(minEndDate.getMonth() + 1).padStart(2, '0');
+            const dd = String(minEndDate.getDate()).padStart(2, '0');
+            endDateInput.min = `${yyyy}-${mm}-${dd}`;
+
+            // Resetuj endDate, jeśli jest mniejsza niż min
+            if (new Date(endDateInput.value) < minEndDate) {
+                endDateInput.value = '';
+            }
+        }
+    });
+</script>
+
+
+</body>
+</html>
