@@ -30,7 +30,7 @@ def generate_bokeh_chart(pivot_df):
     )
     p.title.text = "Popularność artykułów na Wikipedii"
     p.title.align = "center"
-    p.title.text_font_size = "24pt"
+    p.title.text_font_size = "18pt"
     p.title.text_font_style = "bold"
 
     colors = get_color_palette(len(articles))
@@ -47,9 +47,9 @@ def generate_bokeh_chart(pivot_df):
 
     p.yaxis.axis_label = "Liczba odsłon"
     p.yaxis.axis_label_text_font_style = "normal"
-    p.yaxis.axis_label_text_font_size = "16pt"
-    p.yaxis.major_label_text_font_size = "14pt"
-    p.xaxis.major_label_text_font_size = "14pt"
+    p.yaxis.axis_label_text_font_size = "12pt"
+    p.yaxis.major_label_text_font_size = "12pt"
+    p.xaxis.major_label_text_font_size = "11pt"
     p.xaxis.formatter = DatetimeTickFormatter(
         days="%d.%m.%Y",
         months="%d.%m.%Y",

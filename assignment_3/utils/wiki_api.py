@@ -44,8 +44,8 @@ def translate_article(article_title, source_lang, target_lang):
     for page in pages.values():
         langlinks = page.get("langlinks", [])
         if langlinks:
-            return langlinks[0].get("*")  # Zwraca tytuł przetłumaczonego artykułu
-    return None  # Jeśli nie znaleziono
+            return langlinks[0].get("*")
+    return None
 
 def fetch_wikipedia_languages():
     url = "https://meta.wikimedia.org/w/api.php"
