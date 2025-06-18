@@ -1,16 +1,13 @@
 from bokeh.plotting import figure
 from bokeh.embed import components
-from bokeh.layouts import layout, column, row
-from bokeh.models import (
-    ColumnDataSource, Legend, DatetimeTickFormatter,
-    HoverTool, DateRangeSlider, Div
-)
+from bokeh.layouts import column
+from bokeh.models import ColumnDataSource, Legend, DatetimeTickFormatter,DateRangeSlider
 from bokeh.palettes import Category10, Category20, Category20b
 import pandas as pd
 
 def get_color_palette(n):
     if n <= 2:
-        return ['#1f77b4', '#ff7f0e'][:n]
+        return ['#1f77b4', '#3db41f'][:n]
     elif n <= 10:
         return Category10[n]
     elif n <= 20:
@@ -54,9 +51,9 @@ def generate_bokeh_chart(pivot_df):
     p.yaxis.major_label_text_font_size = "14pt"
     p.xaxis.major_label_text_font_size = "14pt"
     p.xaxis.formatter = DatetimeTickFormatter(
-        days="%d %b",
-        months="%b %Y",
-        years="%Y"
+        days="%d.%m.%Y",
+        months="%d.%m.%Y",
+        years="%d.%m.%Y"
     )
 
     # Tworzenie suwaka
@@ -69,6 +66,7 @@ def generate_bokeh_chart(pivot_df):
         end=max_date,
         value=(min_date, max_date),
         step=1,
+        format="%d.%m.%Y",
         width=400
     )
     # Połączenie suwaka z osią X

@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+import requests
+from flask import Flask, render_template, request, jsonify
 from utils.visualization import generate_bokeh_chart
 from utils.wiki_api import get_wiki_pageviews, translate_article, fetch_wikipedia_languages
 from datetime import date
@@ -19,7 +20,7 @@ def index():
     languages_list = fetch_wikipedia_languages()
 
     if request.method == 'POST':
-        articles_raw = request.form.getlist('article')
+        articles_raw = request.form.getlist('article[]')
 
         langs = request.form.getlist('language')
         start_date = request.form['start_date'].replace('-', '')
@@ -90,6 +91,24 @@ def index():
                            legend_labels=legend_labels,
                            error_msg=error_msg,
                            today=today)
+
+@app.route('/autocomplete', methods=['GET'])
+def autocomplete():
+    query = request.args.get('q', '')
+    if not query:
+        return jsonify([])
+
+    url = "https://pl.wikipedia.org/w/api.php"
+    params = {
+        'action': 'opensearch',
+        'format': 'json',
+        'search': query,
+        'limit': 10,
+    }
+    response = requests.get(url, params=params)
+    data = response.json()
+    suggestions = data[1]  # Lista artykułów
+    return jsonify(suggestions)
 
 
 if __name__ == '__main__':

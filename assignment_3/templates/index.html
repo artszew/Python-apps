@@ -29,8 +29,7 @@
        </div>
     <div class="text-center mt-3 mb-4 px-3 shadow-sm">
   <p class="lead mb-0">
-    Strona służąca do porównywania liczby wyświetleń artykułów na Wikipedii.
-    Umożliwia porównywanie różnych artykułów oraz ich liczby odsłon na poszczególnych wersjach językowych portalu.
+    Strona służąca do porównywania liczby odsłon różnych artykułów na Wikipedii, a także tego samego artykułu na poszczególnych wersjach językowych portalu.
     Po naciśnięciu na przycisk <i>porównaj popularność</i> zostanie wygenerowany skumulowany wykres warstwowy
       oraz tabela, którą można pobrać ze strony w formacie <i>csv</i>.
   </p>
@@ -40,16 +39,11 @@
     <form method="POST" class="row g-3">
         <div class="mt-4 col-12">
             <label class="form-label">Artykuły do porównania:</label>
-            <div id="articles-container">
+            <select name="article[]" id="article-select" class="form-control shadow-sm rounded-4" multiple="multiple">
                 {% for article in article_titles %}
-                    <input type="text" name="article" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu np. Owczarek niemiecki">
+                    <option value="{{ article }}" selected>{{ article }}</option>
                 {% endfor %}
-                {% if not article_titles %}
-                    <input type="text" name="article" class="form-control mb-2 shadow-sm rounded-4" placeholder="Wprowadź nazwę artykułu np. Jamnik">
-                {% endif %}
-            </div>
-            <button type="button" class="btn btn-secondary" onclick="addArticleField()">Dodaj artykuł</button>
-            <button type="button" class="btn btn-secondary" onclick="removeArticleField()">Usuń artykuł</button>
+            </select>
         </div>
         <div class="col-md-6">
             <label class="form-label">Wersje językowe Wikipedii:</label>
@@ -73,10 +67,8 @@
 
         <div class="col-md-6">
             <button type="submit" class="btn btn-success mt-3 px-4 shadow-sm rounded-4">Porównaj popularność</button>
-            <button type="submit" class="btn btn-danger mt-3 ms-2 shadow-sm rounded-4" name="clear" value="1">Wyczyść wszystko</button>
-        </div><!--
-        <div class="col-12 text-center">
-        </div>-->
+            <button type="submit" class="btn btn-danger mt-3 ms-2 shadow-sm rounded-4" name="clear" value="1">Odznacz wszystko</button>
+        </div>
     </form>
 
     {% if error_msg %}
@@ -145,14 +137,7 @@
         container.appendChild(input);
     }
 </script>
-<script>
-    function removeArticleField() {
-        const container = document.getElementById('articles-container');
-        const inputs = container.getElementsByTagName('input');
-        if (inputs.length > 1) {
-            container.removeChild(inputs[inputs.length - 1]);}
-    }
-</script>
+
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const toggleBtn = document.getElementById('toggle-table-btn');
@@ -221,6 +206,55 @@
             }
         }
     });
+</script>
+
+<script>
+    function initArticleSelect(el) {
+        $(el).select2({
+            placeholder: "Wprowadź polski tytuł artykułu np. Owczarek niemiecki",
+            width: '100%',
+            ajax: {
+                delay: 250,
+                url: '/autocomplete',
+                dataType: 'json',
+                data: function (params) {
+                    return { q: params.term };
+                },
+                processResults: function (data) {
+                    return {
+                        results: data.map(title => ({ id: title, text: title }))
+                    };
+                }
+            }
+        });
+    }
+
+   $(document).ready(function () {
+    $('#article-select').select2({
+        placeholder: "Wprowadź tytuły artykułów np. Jamnik, Owczarek niemiecki",
+        width: '100%',
+        language: {
+            noResults: function (params) {
+                return params.term ? "Brak wyników" : "";
+                }
+            },
+        ajax: {
+            delay: 250,
+            url: '/autocomplete',
+            dataType: 'json',
+            data: function (params) {
+                return { q: params.term };
+            },
+            processResults: function (data) {
+                return {
+                    results: data.map(title => ({ id: title, text: title }))
+                };
+            }
+        },
+        tags: false  // zapobiega dodawaniu własnych (jeśli chcesz ograniczyć tylko do wyników z API)
+    });
+});
+
 </script>
 
 
