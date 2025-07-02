@@ -12,7 +12,7 @@
 - two stop conditions - the wolf has caught all the sheep or the sheep have survived a certain number of rounds.
 
 <b>Assignment 2 - simple flask app. </b>
-A web application with an HTML interface and REST API, built using a web framework (e.g., Flask) and ORM (e.g., SQLAlchemy), supporting CRUD operations on a relational database with a single table (ID, continuous features as floats, one categorical feature as int), with full data validation and proper error handling (400/404).
+<br>A web application with an HTML interface and REST API, built using a web framework (e.g., Flask) and ORM (e.g., SQLAlchemy), supporting CRUD operations on a relational database with a single table (ID, continuous features as floats, one categorical feature as int), with full data validation and proper error handling (400/404).
 Supported routes:
 - / – home page displaying all records in a table with delete buttons,
 - /add – form to add a new record (POST with validation),
@@ -28,7 +28,7 @@ Validation ensures correct data types and formats. On failure, appropriate HTTP 
 
 # Aplikacje w Pythonie
 
-<b> Assignment 1 - obiektowo zorientowana aplikacja konsolowa - symulacja gry z udziałem wilka próbującego złapać owce rozrzucone na łące z poniższą charakterystyką:
+<b> Assignment 1 - obiektowo zorientowana aplikacja konsolowa </b>- symulacja gry z udziałem wilka próbującego złapać owce rozrzucone na łące z poniższą charakterystyką:
 - na koniec każdej rundy pozycje każdgego zwierzęcia są zapisywane do pliku json,
 - na koniec każdej rundy liczba żywych owiec jest zapisywana do pliku csv,
 - obsługa argumentów wiersza poleceń za pomocą modułu argparse,
@@ -37,7 +37,7 @@ Validation ensures correct data types and formats. On failure, appropriate HTTP 
 - dwa warunki stopu - wilk złapał wszystkie owce lub owce przetrwały określoną liczbę rund.
 
 <b> Assignment 2 - prosta aplikacja we flasku </b>
-Aplikacja webowa z interfejsem HTML i REST API, oparta na frameworku Flask i SQLAlchemy, umożliwiająca operacje CRUD na relacyjnej bazie danych z jedną tabelą (ID, cechy ciągłe jako float, cecha kategoryczna jako int), z pełną walidacją danych i obsługą błędów (400/404).
+<br>Aplikacja webowa z interfejsem HTML i REST API, oparta na frameworku Flask i SQLAlchemy, umożliwiająca operacje CRUD na relacyjnej bazie danych z jedną tabelą (ID, cechy ciągłe jako float, cecha kategoryczna jako int), z pełną walidacją danych i obsługą błędów (400/404).
 Obsługiwane ścieżki:
 - / – strona główna z tabelą wszystkich rekordów i możliwością ich usunięcia,
 - /add – formularz dodawania rekordu (POST z walidacją),
