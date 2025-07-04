@@ -34,6 +34,7 @@ Validation ensures correct data types and formats. On failure, appropriate HTTP 
 
 The last one - WikiApp - is hosted on free hosting (so it may take a while to load after the first launch) and is available at: https://visualizationtask4.onrender.com/
 
+_________
 [PL]
 
 # Aplikacje w Pythonie
