@@ -32,6 +32,8 @@ Validation ensures correct data types and formats. On failure, appropriate HTTP 
 - the chart was created using the Boteh library and has 3 interactions - date slicer, filtering with extinction after clicking the entry name on the legend and zooming,
 - data on the number of article views on individual days is also available in the table below the chart and can be downloaded in _csv_ format.
 
+The last one - WikiApp - is hosted on free hosting (so it may take a while to load after the first launch) and is available at: https://visualizationtask4.onrender.com/
+
 [PL]
 
 # Aplikacje w Pythonie
@@ -66,4 +68,4 @@ Walidacja sprawdza poprawność typów i zakresów danych wejściowych. Przy bł
 - wykres został stworzony przy pomocy biblioteki Boteh i posiada 3 interakcje - slicer dat, filtrowanie z wygaszeniem po kliknięciu nazwy hasła na legendzie oraz przybliżenie,
 - dane dotyczące liczby odsłon artykułów w poszczególne dni są również dostępne w tabeli pod wykresem i możliwe do pobrania w formacie _csv_.
   
-WikiApp jest postawiona na darmowym hostingu (w związku z czym po pierwszym uruchomieniu po dłuższym czasie może chwilę się ładować) i dostępna pod adresem: https://visualizationtask4.onrender.com/
+Ostatnia aplikacja - WikiApp - jest postawiona na darmowym hostingu (w związku z czym po pierwszym uruchomieniu po dłuższym czasie może chwilę się ładować) i dostępna pod adresem: https://visualizationtask4.onrender.com/
