@@ -29,7 +29,7 @@ Validation ensures correct data types and formats. On failure, appropriate HTTP 
 - the form allows you to select the Wikipedia language versions from which the user would like to compare articles (also based on the API of existing language versions),
 - the form allows the user to select a date range, with simple validation that these are not dates from the future, and that the end date is later than the start date,
 - the names of articles are automatically translated into the languages ​​of the language versions that have been selected,
-- the chart was created using the Boteh library and has 3 interactions - date slicer, filtering with extinction after clicking the entry name on the legend and zooming,
+- the chart was created using the Bokeh library and has 3 interactions - date slicer, filtering with extinction after clicking the entry name on the legend and zooming,
 - data on the number of article views on individual days is also available in the table below the chart and can be downloaded in _csv_ format.
 
 The last one - WikiApp - is hosted on free hosting (so it may take a while to load after the first launch) and is available at: https://visualizationtask4.onrender.com/
@@ -65,7 +65,7 @@ Walidacja sprawdza poprawność typów i zakresów danych wejściowych. Przy bł
 - formularz umożliwia wybranie wersji językowych Wikipedii, z których artykuły użytkownik chciałby porównać (również na podstawie API istniejących wersji językowych),
 - formularz umożliwia wybranie przez użytkownika zakresu dat, z prostą walidacją aby nie były to daty z przyszłości, a także aby data końcowa była później niż początkowa,
 - nazwy artykułów są automatycznie tłumaczone na języki tych wersji językowych, które zostały wybrane,
-- wykres został stworzony przy pomocy biblioteki Boteh i posiada 3 interakcje - slicer dat, filtrowanie z wygaszeniem po kliknięciu nazwy hasła na legendzie oraz przybliżenie,
+- wykres został stworzony przy pomocy biblioteki Bokeh i posiada 3 interakcje - slicer dat, filtrowanie z wygaszeniem po kliknięciu nazwy hasła na legendzie oraz przybliżenie,
 - dane dotyczące liczby odsłon artykułów w poszczególne dni są również dostępne w tabeli pod wykresem i możliwe do pobrania w formacie _csv_.
   
 Ostatnia aplikacja - WikiApp - jest postawiona na darmowym hostingu (w związku z czym po pierwszym uruchomieniu po dłuższym czasie może chwilę się ładować) i dostępna pod adresem: https://visualizationtask4.onrender.com/
