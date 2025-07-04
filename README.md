@@ -65,3 +65,5 @@ Walidacja sprawdza poprawność typów i zakresów danych wejściowych. Przy bł
 - nazwy artykułów są automatycznie tłumaczone na języki tych wersji językowych, które zostały wybrane,
 - wykres został stworzony przy pomocy biblioteki Boteh i posiada 3 interakcje - slicer dat, filtrowanie z wygaszeniem po kliknięciu nazwy hasła na legendzie oraz przybliżenie,
 - dane dotyczące liczby odsłon artykułów w poszczególne dni są również dostępne w tabeli pod wykresem i możliwe do pobrania w formacie _csv_.
+  
+WikiApp jest postawiona na darmowym hostingu (w związku z czym po pierwszym uruchomieniu po dłuższym czasie może chwilę się ładować) i dostępna pod adresem: https://visualizationtask4.onrender.com/
