@@ -27,6 +27,10 @@ Validation ensures correct data types and formats. On failure, appropriate HTTP 
 
 The last one - WikiApp - is hosted on free hosting (so it may take a while to load after the first launch) and is available at: https://visualizationtask4.onrender.com/
 
+![WikipediaApp](./WikipediaApp_01.png)
+
+![WikipediaApp](./WikipediaApp_02.png)
+
 _________
 [PL]
 
@@ -63,3 +67,7 @@ Walidacja sprawdza poprawność typów i zakresów danych wejściowych. Przy bł
 - dane dotyczące liczby odsłon artykułów w poszczególne dni są również dostępne w tabeli pod wykresem i możliwe do pobrania w formacie _csv_.
   
 Ostatnia aplikacja - WikiApp - jest postawiona na darmowym hostingu (w związku z czym po pierwszym uruchomieniu po dłuższym czasie może chwilę się ładować) i dostępna pod adresem: https://visualizationtask4.onrender.com/
+
+![WikipediaApp](./WikipediaApp_01.png)
+
+![WikipediaApp](./WikipediaApp_02.png)
